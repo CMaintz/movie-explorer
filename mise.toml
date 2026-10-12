@@ -5,7 +5,7 @@
 # what lets one skill library serve a React repo and a Kotlin repo alike.
 
 [tools]
-node = "22.14.0"
+node = "22.15.0"
 
 [env]
 # Put local binaries on PATH so tasks call `eslint`, not `npx eslint`.
