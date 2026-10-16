@@ -97,7 +97,7 @@ const Navbar = () => {
         >
           <NavBtn
             onClick={() => navigate('/')}
-            icon={() => <span className="text-white font-bold text-lg tracking-wide">MovieDB</span>}
+            icon={() => <span className="text-white font-bold text-lg tracking-wide">movie-explorer</span>}
             label=""
             isActive={false}
             className="mr-4"
@@ -159,7 +159,7 @@ const Navbar = () => {
           onClick={() => navigate('/')}
           className="text-white font-bold text-lg mr-auto focus:outline-none"
         >
-          MovieDB
+          movie-explorer
         </button>
         <button
           onClick={() => setDrawerOpen(true)}
